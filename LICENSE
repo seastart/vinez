@@ -1,0 +1,106 @@
+Vinez —— 使用条款 / Terms of Use
+================================
+
+★ 本文件由 scripts/gen-license.py 从 site/terms.html 生成，请勿直接编辑。
+  要改条款请改 site/terms.html（即 https://vinez.ai/terms），再跑 `make license`。
+
+★ This file is generated from site/terms.html by scripts/gen-license.py. Do not edit
+  it directly. Edit site/terms.html (i.e. https://vinez.ai/terms) and run `make license`.
+
+使用条款
+========
+
+生效日期：2026 年 9 月 5 日
+
+1. 授权范围
+
+Vinez 以二进制形式提供，源代码不开放。在遵守本条款的前提下，我们授予你在你自己或你所属组织的设备上安装、运行本软件的非独占、不可转让的权利。
+
+软件包含一份免费的并发任务额度，足以完成评估与小团队日常使用。需要更高并发时，可通过容量授权包扩容：授权是叠加的——一份授权包就是一个扩容包，本机总量为免费额度与所有有效授权包之和。授权包绑定安装它的机器。
+
+2. 你不可以做的事
+
+  - 反编译、反汇编或以其他方式尝试还原软件的源代码
+  - 绕过、移除或篡改授权校验、容量限制与相关标识
+  - 将软件或授权包再分发、转售、出租，或提供给你所属组织之外的第三方使用
+  - 移除或修改软件中的版权与来源标识
+
+3. 关于 AI agent 在你机器上执行任务的风险
+
+这一条是本条款中最需要你认真读一遍的部分。
+
+Vinez 的工作方式是：在你的机器上启动 AI 编码工具（如 Claude Code、Codex）的子进程，让它们自主执行命令行操作、读写文件、并修改 git 仓库。这是产品的核心功能，不是副作用。因此：
+
+  - agent 可能做出你不预期的改动——包括删除或覆盖文件、执行有副作用的命令、提交或推送代码。软件内置了工作目录隔离（git worktree）、写沙箱与越界提交告警，但这些是降低风险的措施，不是保证。
+  - 请只在有版本控制与备份的环境中使用，并按最小必要原则配置该机器上的凭据（git 身份、ssh key、云平台密钥等）——agent 拥有运行它的那个用户的权限。
+  - 你对在你的机器上发生的一切行为及其后果负责，包括 agent 产生的代码改动、执行的命令，以及由此产生的模型调用费用。
+
+4. 第三方组件与服务
+
+软件需要你自行安装并登录 AI 编码工具，也可选择接入聊天平台。这些第三方工具与平台各有其条款与隐私政策，由你与它们直接建立关系，不在本条款范围内。向模型提供方发送了什么内容，取决于那些工具的行为与你在其中的设置。
+
+5. 无担保
+
+软件按「现状」提供，不附带任何明示或默示的担保，包括但不限于对适销性、特定用途适用性、不侵权的担保。我们不保证软件无缺陷、不中断，或能满足你的特定需求。
+
+6. 责任限制
+
+在法律允许的最大范围内，我们不对任何间接、附带、特殊或后果性损失负责，包括但不限于数据丢失、代码损坏、业务中断或利润损失。若适用法律不允许完全免责，我们的赔偿责任以你为相关授权包实际支付的金额为上限。
+
+7. 条款变更与终止
+
+我们可能更新本条款，实质性修改会更新页首生效日期。若你违反本条款，授权自动终止；终止后你应停止使用并删除软件，但你的数据始终在你自己手里。
+
+8. 联系
+
+授权与商务问题、或对本条款的疑问，请在 GitHub Issues (https://github.com/seastart/vinez/issues) 提出。
+
+------------------------------------------------------------------------
+
+Terms of Use
+============
+
+Effective: September 5, 2026
+
+1. License grant
+
+Vinez is provided in binary form; source code is not made available. Subject to these terms, we grant you a non-exclusive, non-transferable right to install and run the software on devices belonging to you or your organization.
+
+The software includes a free concurrent-task allowance sufficient for evaluation and small-team daily use. Higher concurrency is available through capacity license packages, which are additive — each package is an increment, and a machine's total is the free allowance plus all valid packages. A package is bound to the machine it is installed on.
+
+2. Restrictions
+
+  - Do not decompile, disassemble, or otherwise attempt to derive the source code
+  - Do not circumvent, remove, or tamper with license verification, capacity limits, or related identifiers
+  - Do not redistribute, resell, rent, or make the software or license packages available to third parties outside your organization
+  - Do not remove or alter copyright and attribution notices
+
+3. Risks of AI agents executing tasks on your machine
+
+This is the section most worth reading carefully.
+
+Vinez works by launching AI coding tools (e.g. Claude Code, Codex) as child processes on your machine and letting them autonomously run shell commands, read and write files, and modify git repositories. That is the product's core function, not a side effect. Therefore:
+
+  - An agent may make changes you did not expect — including deleting or overwriting files, running commands with side effects, and committing or pushing code. The software includes working-directory isolation (git worktrees), a write sandbox, and out-of-scope commit alerts, but these reduce risk; they do not guarantee outcomes.
+  - Use it only in an environment with version control and backups, and provision credentials on that machine (git identity, SSH keys, cloud keys) on a least-privilege basis — an agent has the permissions of the user account running it.
+  - You are responsible for what happens on your machine and its consequences, including code changes made and commands run by agents, and any model usage costs incurred.
+
+4. Third-party components and services
+
+The software requires you to install and sign in to AI coding tools, and optionally to connect a chat platform. Those third-party tools and platforms have their own terms and privacy policies, and your relationship with them is direct and outside these terms. What is sent to a model provider depends on those tools' behavior and your settings within them.
+
+5. No warranty
+
+The software is provided "as is", without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the software will be error-free or uninterrupted, or that it will meet your specific requirements.
+
+6. Limitation of liability
+
+To the maximum extent permitted by law, we are not liable for indirect, incidental, special, or consequential damages, including data loss, code corruption, business interruption, or lost profits. Where full exclusion is not permitted, our aggregate liability is limited to the amount you actually paid for the relevant license package.
+
+7. Changes and termination
+
+We may update these terms; material changes will be reflected in the effective date above. The license terminates automatically if you breach these terms, after which you must stop using and delete the software — your data remains in your own hands throughout.
+
+8. Contact
+
+For licensing, commercial questions, or questions about these terms, please open an issue on GitHub (https://github.com/seastart/vinez/issues).
