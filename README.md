@@ -1,3 +1,10 @@
+# Vinez
+
+**One AI engineering execution center. On call for your whole team.**
+*一套 AI 工程能力，整个团队随时调用。*
+
+---
+
 ## English
 
 **Send an engineering request. Vinez keeps working until it’s delivered.**
@@ -10,9 +17,7 @@ Vinez is the AI engineering execution center for teams. It turns your team’s e
 curl -fsSL https://vinez.ai/install.sh | sh
 ```
 
-The server runs on macOS and Linux (Apple Silicon / Intel / x86_64 / arm64); desktop and mobile clients are on the [download page](https://vinez.ai/download).
-
-iOS: [Download on the App Store](https://apps.apple.com/app/id6806147128).
+The server runs on macOS and Linux (Apple Silicon / Intel / x86_64 / arm64); desktop and mobile clients are on the [download page](https://vinez.ai/download) (iOS: [App Store](https://apps.apple.com/app/id6806147128)).
 
 **Links:**
 
@@ -22,6 +27,8 @@ iOS: [Download on the App Store](https://apps.apple.com/app/id6806147128).
 - Feedback: this repository’s [Issues](https://github.com/seastart/vinez/issues)
 
 This repository only distributes release artifacts (per-platform binaries and client installers); the source code is not yet public. Use is subject to the [Terms of Use](https://vinez.ai/terms).
+
+---
 
 ## 中文
 
@@ -35,9 +42,7 @@ Vinez 是面向团队的 AI 工程执行中枢：装在一台常开机器上的�
 curl -fsSL https://vinez.ai/install.sh | sh
 ```
 
-服务端支持 macOS 与 Linux（Apple Silicon / Intel / x86_64 / arm64）；桌面与移动客户端见[下载页](https://vinez.ai/download)。
-
-iOS：[前往 App Store 下载](https://apps.apple.com/app/id6806147128)。
+服务端支持 macOS 与 Linux（Apple Silicon / Intel / x86_64 / arm64）；桌面与移动客户端见[下载页](https://vinez.ai/download)（iOS：[App Store](https://apps.apple.com/app/id6806147128)）。
 
 **链接：**
 
@@ -47,5 +52,3 @@ iOS：[前往 App Store 下载](https://apps.apple.com/app/id6806147128)。
 - 问题反馈：本仓库 [Issues](https://github.com/seastart/vinez/issues)
 
 本仓库仅用于分发发布成果物（各平台二进制、客户端安装包），源代码暂未开放。使用即表示同意[使用条款](https://vinez.ai/terms)。
-
----

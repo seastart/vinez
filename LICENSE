@@ -1,11 +1,11 @@
-Vinez —— 使用条款 / Terms of Use
+Vinez —— Terms of Use / 使用条款
 ================================
-
-★ 本文件由 scripts/gen-license.py 从 site/terms.html 生成，请勿直接编辑。
-  要改条款请改 site/terms.html（即 https://vinez.ai/terms），再跑 `make license`。
 
 ★ This file is generated from site/terms.html by scripts/gen-license.py. Do not edit
   it directly. Edit site/terms.html (i.e. https://vinez.ai/terms) and run `make license`.
+
+★ 本文件由 scripts/gen-license.py 从 site/terms.html 生成，请勿直接编辑。
+  要改条款请改 site/terms.html（即 https://vinez.ai/terms），再跑 `make license`。
 
 Terms of Use
 ============
