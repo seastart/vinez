@@ -10,10 +10,12 @@
 **Send a request in your team chat. Vinez keeps working until it’s delivered.**
 
 <p align="center">
+  <sub>Just say what needs doing. Which task, which project — its call, not yours.</sub>
+  <br />
   <img src="https://vinez.ai/imgs/im-mobile-en.png" width="330" alt="A team chat thread: someone asks Vinez to look into duplicate order postings, Vinez opens task #128, reports the root cause, asks which fix to take, and delivers after a one-line answer" />
 </p>
 
-Vinez is the AI engineering execution center for teams. It turns your team’s engineering work into persistent, governed tasks and coordinates AI agents to carry them through to delivery. Every member can assign work, collaborate, and take over from chat, web, or terminal — no one has to install, configure, or maintain their own agents.
+Vinez is the AI engineering execution center for teams. It turns your team’s engineering work into persistent, governed tasks and coordinates AI agents to carry them through to delivery. Every member can assign work, collaborate, and take over from chat, web, or the app — no one has to install, configure, or maintain their own agents.
 
 **Install:**
 
@@ -43,10 +45,12 @@ This repository only distributes release artifacts (per-platform binaries and cl
 **在你们的办公 IM 里发一句需求，Vinez 持续执行到交付。**
 
 <p align="center">
+  <sub>说一句要做的事就行 —— 建哪个任务、归哪个项目，都是它自己判的</sub>
+  <br />
   <img src="https://vinez.ai/imgs/im-mobile.png" width="330" alt="聊天群里的一轮往来：有人让 Vinez 查重复入账，它建了任务 #128、报出根因、停下来问该走哪种修法，得到一句回答后交付" />
 </p>
 
-Vinez 是面向团队的 AI 工程执行中枢：装在一台常开机器上的服务端（`vinezd`），把整个团队的工程需求变成持续、可治理的任务，再编排 AI agent 执行到交付。成员从聊天、Web 或终端都能发起、协作、随时接管——不必各自安装、各自配置，也不必各自维护一套 agent。
+Vinez 是面向团队的 AI 工程执行中枢：装在一台常开机器上的服务端（`vinezd`），把整个团队的工程需求变成持续、可治理的任务，再编排 AI agent 执行到交付。成员从聊天、Web 或 App 都能发起、协作、随时接管——不必各自安装、各自配置，也不必各自维护一套 agent。
 
 **安装：**
 
