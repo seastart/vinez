@@ -19,6 +19,14 @@ Vinez is the AI engineering execution center for teams. It turns your team’s e
 
 ### Getting started
 
+**Let AI install it.** On the machine that will run the server, open Claude Code, Codex, or any other AI tool that can run commands there, and send it:
+
+```text
+Following https://vinez.ai/install.md, install Vinez on this machine and import the code repositories I work on. When a step needs me to do something in a platform console, stop and tell me what to do.
+```
+
+It handles the install, the health check and importing projects; for the chat channel, it walks you through creating the bot and getting its credentials. Or do it by hand:
+
 **1. Install the server.** Pick an always-on machine your team can reach (macOS or Linux; Windows via WSL2) and run:
 
 ```bash
@@ -61,6 +69,14 @@ This repository only distributes release artifacts (per-platform binaries and cl
 Vinez 是面向团队的 AI 工程执行中枢：装在一台常开机器上的服务端（`vinezd`），把整个团队的工程需求变成持续、可治理的任务，再编排 AI agent 执行到交付。成员从聊天、Web 或 App 都能发起、协作、随时接管——不必各自安装、各自配置，也不必各自维护一套 agent。
 
 ### 安装和使用
+
+**让 AI 帮你装。** 在要做服务端的那台机器上打开 Claude Code、Codex 或其他能执行命令的 AI 工具，把这段话发给它：
+
+```text
+参考 https://vinez.ai/install.md ，帮我在这台机器上安装 Vinez，并导入我常用的代码仓库。需要我去平台后台操作的步骤，停下来告诉我怎么做。
+```
+
+它会完成安装、体检和导入项目；接聊天通道时，会带你走一遍建机器人、拿凭据的步骤。也可以手动安装：
 
 **1. 安装服务端。** 挑一台团队都能访问的常开机器（macOS 或 Linux；Windows 经 WSL2），运行：
 
