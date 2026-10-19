@@ -17,13 +17,21 @@
 
 Vinez is the AI engineering execution center for teams. It turns your team’s engineering work into persistent, governed tasks and coordinates AI agents to carry them through to delivery. Every member can assign work, collaborate, and take over from chat, web, or the app — no one has to install, configure, or maintain their own agents.
 
-**Install:**
+### Getting started
+
+**1. Install the server.** Pick an always-on machine your team can reach (macOS or Linux; Windows via WSL2) and run:
 
 ```bash
 curl -fsSL https://vinez.ai/install.sh | sh
 ```
 
-The server runs on macOS and Linux (Apple Silicon / Intel / x86_64 / arm64); desktop and mobile clients are on the [download page](https://vinez.ai/download) (iOS: [App Store](https://apps.apple.com/app/id6806147128)).
+When it finishes, it prints the address of the admin console and how to sign in. Sign in to an agent CLI (Claude Code or Codex) once on this machine; it runs tasks for the whole team.
+
+**2. Connect a chat channel.** WeCom, Feishu and Slack are supported — see [Connect a chat channel](https://vinez.ai/channels?lang=en). No public IP or domain needed. From then on, teammates just message the bot; they install nothing.
+
+**3. Optional: install a client.** To watch the live terminal, review file changes, or take over a task yourself, use the web console or the desktop / mobile app from the [download page](https://vinez.ai/download?lang=en) (iOS: [App Store](https://apps.apple.com/app/id6806147128)).
+
+Full walkthrough: [Getting started guide](https://vinez.ai/guide?lang=en).
 
 <p align="center">
   <img src="https://vinez.ai/imgs/board-en.png" width="820" alt="The Vinez board: every task your team has in flight or finished, in five columns" />
@@ -52,13 +60,21 @@ This repository only distributes release artifacts (per-platform binaries and cl
 
 Vinez 是面向团队的 AI 工程执行中枢：装在一台常开机器上的服务端（`vinezd`），把整个团队的工程需求变成持续、可治理的任务，再编排 AI agent 执行到交付。成员从聊天、Web 或 App 都能发起、协作、随时接管——不必各自安装、各自配置，也不必各自维护一套 agent。
 
-**安装：**
+### 安装和使用
+
+**1. 安装服务端。** 挑一台团队都能访问的常开机器（macOS 或 Linux；Windows 经 WSL2），运行：
 
 ```bash
 curl -fsSL https://vinez.ai/install.sh | sh
 ```
 
-服务端支持 macOS 与 Linux（Apple Silicon / Intel / x86_64 / arm64）；桌面与移动客户端见[下载页](https://vinez.ai/download)（iOS：[App Store](https://apps.apple.com/app/id6806147128)）。
+安装结束时会打印管理页面的地址与登录方式。再在这台机器上装好并登录一次 agent CLI（Claude Code 或 Codex），全团队的任务都由它执行。
+
+**2. 接入聊天通道。** 支持企业微信、飞书、Slack，步骤见[接入聊天通道](https://vinez.ai/channels)，不需要公网 IP、不需要域名。之后同事在聊天里给机器人发消息即可，什么都不用装。
+
+**3. 可选：安装客户端。** 想看实时终端、逐行查改动，或者亲自接管任务时，用 Web 控制台，或从[下载页](https://vinez.ai/download)安装桌面与移动客户端（iOS：[App Store](https://apps.apple.com/app/id6806147128)）。
+
+完整说明见官网[使用指南](https://vinez.ai/guide)。
 
 <p align="center">
   <img src="https://vinez.ai/imgs/board.png" width="820" alt="Vinez 任务看板：团队里所有正在进行和已经完成的任务，五列一屏看完" />
