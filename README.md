@@ -35,7 +35,7 @@ curl -fsSL https://vinez.ai/install.sh | sh
 
 When it finishes, it prints the address of the admin console and how to sign in. Sign in to an agent CLI (Claude Code or Codex) once on this machine; it runs tasks for the whole team.
 
-**2. Connect a chat channel.** WeCom, Feishu and Slack are supported — see [Connect a chat channel](https://vinez.ai/channels?lang=en). No public IP or domain needed. From then on, teammates just message the bot; they install nothing.
+**2. Connect a chat channel.** WeCom, Feishu, Slack and DingTalk are supported — see [Connect a chat channel](https://vinez.ai/channels?lang=en). No public IP or domain needed. From then on, teammates just message the bot; they install nothing.
 
 **3. Optional: install a client.** To watch the live terminal, review file changes, or take over a task yourself, use the web console or the desktop / mobile app from the [download page](https://vinez.ai/download?lang=en) (iOS: [App Store](https://apps.apple.com/app/id6806147128)).
 
@@ -86,7 +86,7 @@ curl -fsSL https://vinez.ai/install.sh | sh
 
 安装结束时会打印管理页面的地址与登录方式。再在这台机器上装好并登录一次 agent CLI（Claude Code 或 Codex），全团队的任务都由它执行。
 
-**2. 接入聊天通道。** 支持企业微信、飞书、Slack，步骤见[接入聊天通道](https://vinez.ai/channels)，不需要公网 IP、不需要域名。之后同事在聊天里给机器人发消息即可，什么都不用装。
+**2. 接入聊天通道。** 支持企业微信、飞书、Slack、钉钉，步骤见[接入聊天通道](https://vinez.ai/channels)，不需要公网 IP、不需要域名。之后同事在聊天里给机器人发消息即可，什么都不用装。
 
 **3. 可选：安装客户端。** 想看实时终端、逐行查改动，或者亲自接管任务时，用 Web 控制台，或从[下载页](https://vinez.ai/download)安装桌面与移动客户端（iOS：[App Store](https://apps.apple.com/app/id6806147128)）。
 
